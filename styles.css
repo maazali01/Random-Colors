@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(16, 12, 74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(167, 167, 209);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#color-display {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
